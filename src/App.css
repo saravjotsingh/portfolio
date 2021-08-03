@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+body{
+    height: 100vh;
+    background-color: black;
+}
+.div_text{
+    color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info_1{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Yeseva One', cursive;
+
+}
+.info_2{
+    font-family: sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    width: 95%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainDiv{
+    position: fixed;
+    top: 28%;
+    left: 16%;
+}
+.contact_icons{
+    padding-top: 20px;
+}
+.icon{
+    font-size: 26px;
+    padding-left: 30px;
+}
+.icon1{
+    font-size: 26px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.div_text{
+    width: 70%;
+    float: left;
 }
 
-.App-link {
-  color: #61dafb;
+.image_div{
+    width: 30%;
+    float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image_div_child{
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 110px;
+    border-style: dotted;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
 }
