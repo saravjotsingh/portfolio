@@ -39,9 +39,6 @@ const Skills = () => {
           <ul>
             <li>Linux</li>
             <li>MacOs</li>
-            <li>Jquery</li>
-            <li>React.js</li>
-            <li>Node.js</li>
           </ul>
         </div>
         <div className="skills-category">
