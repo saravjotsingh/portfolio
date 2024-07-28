@@ -13,10 +13,10 @@ const experienceData = {
       ]
     }
   ],
-  SearchUnify: [
+  Searchunify: [
     {
       title: 'Software Developer',
-      duration: 'June 2015 - April 2018',
+      duration: 'May 2020 - April 2023',
       responsibilities: [
         'Engineered a multi-tenant authentication service for cross-application user authentication.',
         'Implemented Docker Compose in 15+ projects to orchestrate multi-container environments, achieving up to 30% better resource efficiency and reduced system downtime.',
@@ -27,7 +27,7 @@ const experienceData = {
     },
     {
       title: 'Associate Software Engineer',
-      duration: 'June 2016 - April 2018',
+      duration: 'January 2019 - May 2020',
       responsibilities: [
         'Managed User Interface creation and debugging, reducing support tickets by 14%',
         'Developed design frames into webpages using HTML5, JavaScript, jQuery, and React.js',
