@@ -21,8 +21,10 @@ const Skills = () => {
             <li>HTML5</li>
             <li>CSS</li>
             <li>Jquery</li>
-            <li>React.js</li>
-            <li>Node.js</li>
+            <li>ReactJs</li>
+            <li>NodeJs</li>
+            <li>NestJs</li>
+            <li>ExpressJs</li>
           </ul>
         </div>
         <div className="skills-category">

@@ -7,32 +7,37 @@ const experienceData = {
       title: 'Backend Developer',
       duration: 'January 2024 - Present',
       responsibilities: [
-        'Designed a dynamic leaderboard system for real-time event rewards, boosting user interaction by 60%.',
-        'Implemented AWS CodeBuild in the Project to automate the build process, ensuring efficient and consistent code compilation.',
-        'Constructed and maintained TypeScript-based applications, leveraging strong typing to improve code reliability and facilitate seamless refactoring.'
+        'Deployed multiple Docker containers on ECS, with routing efficiently managed through ELB and Target Groups.',
+        'Integrated third-party services such as Stripe for payment processing and Twilio for SMS notifications.',
+        'Engineered a scalable chat application using NestJS and Socket.io, ensuring efficient, low-latency communication between users for both one-on-one and group chats.',
+        'Implemented AWS SQS to handle background task processing, leading to 20% throughput improvement by offloading and decoupling tasks from the main process.',
+        'Built a dynamic leaderboard system with TypeScript, and MySQL, increasing user interaction by 30% through real-time event updates.'
       ]
     }
   ],
   Searchunify: [
     {
       title: 'Software Developer',
-      duration: 'May 2020 - April 2023',
+      duration: 'January 2021 - April 2023',
       responsibilities: [
-        'Engineered a multi-tenant authentication service for cross-application user authentication.',
-        'Implemented Docker Compose in 15+ projects to orchestrate multi-container environments, achieving up to 30% better resource efficiency and reduced system downtime.',
-        'Improved the data retrieval rate by 30% by developing a database architecture and schema design in SQL and NoSQL databases',
-        'Increased client satisfaction by 60% through daily interaction and effective communication with 10+ clients.',
-        'Engineered Redis caching layer, reducing API response times by 50% and scaling to handle 100,000 daily transactions'
+        "Migrated a monolithic application to microservices, reducing deployment times by around 50% and improving stability.",
+        "Built multi-tenant authentication services using OAuth2 and JWT for unified access control for all services.",
+        "Achieved superior application performance by utilizing Node.js in the backend and enabling a non-blocking, event-driven architecture.",
+        "Used AWS Lambda to resize images and generate thumbnails, storing them in S3 and utilizing CloudFront for efficient caching and delivery.",
+        "Boosted data retrieval rate by 15% with optimized SQL (MySQL & PostgreSQL) and NoSQL(MongoDB) database architecture.",
+        "Designed a pub-sub message queue using Kafka to facilitate data transfer between microservices.",
       ]
     },
     {
       title: 'Associate Software Engineer',
-      duration: 'January 2019 - May 2020',
+      duration: 'August 2019 - December 2020',
       responsibilities: [
-        'Managed User Interface creation and debugging, reducing support tickets by 14%',
-        'Developed design frames into webpages using HTML5, JavaScript, jQuery, and React.js',
-        'Created an administrative dashboard for monitoring user subscription plans and resource usage',
-        'Executed 100+ unit tests validating UI functionality, backend processes, and database integration'
+        "Developed and maintained RESTful APIs using Node.js and Express for various clients.",
+        "Implemented Python scripts for data preprocessing with tokenization, stemming, and lemmatization.",
+        "Engineered Redis caching, decreasing API response times and scaling to 50k daily transactions.",
+        "Executed 100+ unit tests using Mocha, validating functionality, backend processes, and database integration.",
+        "Engaged in Agile development practices, participating in sprint planning and delivering tasks within set deadlines",
+        
       ]
     }
   ],
