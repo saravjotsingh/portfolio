@@ -13,10 +13,10 @@ phases:
       - echo Building the React project...
       - npm run build
 
-post_build:
-  commands:
-    - echo Build completed. Now deploying to S3...
-    - aws s3 sync build/ s3://portfolio-sarav --delete
+  post_build:
+    commands:
+      - echo Build completed. Now deploying to S3...
+      - aws s3 sync build/ s3://portfolio-sarav --delete
 
 artifacts:
   files:
