@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo Installing dependencies...
+      - npm install
+
+  build:
+    commands:
+      - echo Building the React project...
+      - npm run build
+
+post_build:
+  commands:
+    - echo Build completed. Now deploying to S3...
+    - aws s3 sync build/ s3://portfolio-sarav --delete
+
+artifacts:
+  files:
+    - '**/*'
+
+cache:
+  paths:
+    - node_modules/**/*
